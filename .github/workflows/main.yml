@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy Step
-        run: echo "Deploying test 12333123456777888899....."
+        run: echo "Deploying test new v1....."
 
   ServiceNowDevOpsChange:
     needs: deploy
